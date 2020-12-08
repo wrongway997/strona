@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#box{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    padding-right: 20px;
+    padding-left: 20px;
+    flex: 111px;
+    background-color: #121212;
+}
+#menu{
+    background-color: #121212;
+    width: 100%;
+    padding-bottom: 10px;
+    flex: auto;
+}
+.options{
+    background-color: #121212;
+    border-right: 2px dotted #aaaaaa;
+    padding: 10px;
+    min-width: 70px;
+    min-height: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.options:hover{
+    background-color: #232323;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+}
+a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+#botbox{
+    background-image: url(bramka.jpg);
+    background-size: cover;
+    max-height: 100%;
+    /*padding-top: 300px;*/
+
+}
+#napisglowna{
+    padding-top: 140px;
+}
+#content{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #efefef;
+    margin-top: 140px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+.natrenera{
+    display: flex;
+    width: 100%;
+}
+.pusty{
+    flex: 1;
+}
+.trener{
+    flex: 1;
+}
+ul li{
+    list-style: none;
+}
+ul li .fas,.fab{
+    font-size: 100px;
+    margin:20px 0px;
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td{
+    min-width: 3cm;
+    min-height: 7cm;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+#footer{
+    background-color: #121212;
+    display: flex;
+    margin-top: 300px;
+
+}
+#footerL{
+    flex:70%;
+    text-align: right;
+    color: rgb(83, 79, 79);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+#footerR{
+    flex: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    color: rgb(83, 79, 79);
+    font-size: small;
+}
